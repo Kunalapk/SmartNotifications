@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="noti_channel_default">Primary Channel</string>
+    <string name="noti_channel_second">Secondary Channel</string>
+</resources>
