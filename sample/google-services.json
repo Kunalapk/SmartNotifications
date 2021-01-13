@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "85166269157",
+    "firebase_url": "https://admin-console-app.firebaseio.com",
+    "project_id": "admin-console-app",
+    "storage_bucket": "admin-console-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85166269157:android:70dc3a1c492daf92f06a0c",
+        "android_client_info": {
+          "package_name": "com.kunalapk.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85166269157-j7dj7liquutk06d781m2hds0jf9tfg8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXhH0P9Ogw39VB4KcaPzI6qS0ob8WaUPQ"
+        },
+        {
+          "current_key": "AIzaSyDY5O97TS_OdDMl8ug_q3JZFmoTiwYAjw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85166269157-j7dj7liquutk06d781m2hds0jf9tfg8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
