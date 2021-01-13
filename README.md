@@ -29,7 +29,12 @@ dependencies {
 }
 ```
 
+
+### Reporting tool
 ```bash
 npm init
+```
+
+```bash
 npm install smartnotifications
 ```
