@@ -1,0 +1,11 @@
+{
+  "name": "smartnotifications",
+  "version": "1.0.0",
+  "description": "Firebase notification report with firestore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kunal Pasricha",
+  "license": "ISC"
+}
