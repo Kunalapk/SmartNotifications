@@ -24,12 +24,6 @@ allprojects {
      }
 }
 
-
-buildFeatures {
-     dataBinding = true
-}
-
-
 dependencies {
      implementation 'com.github.Kunalapk:SmartNotifications:TAG'
 }
