@@ -1,5 +1,5 @@
 # SmartNotifications for Android
-An android library to quickly setup firebase notification, written entirely in Kotlin.
+An android library to quickly setup firebase notifications with firestore reporting, written entirely in Kotlin.
 
 ![Works with Android](https://img.shields.io/badge/Works_with-Android-green?style=flat-square)
 [![](https://jitpack.io/v/Kunalapk/SmartNotifications.svg)](https://jitpack.io/#Kunalapk/SmartNotifications)
