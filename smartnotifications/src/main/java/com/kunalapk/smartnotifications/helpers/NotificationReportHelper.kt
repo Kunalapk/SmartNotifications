@@ -3,8 +3,8 @@ package com.kunalapk.smartrecyclerview.helper
 import android.content.Intent
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import com.kunalapk.smartrecyclerview.service.MessagingService
-import com.kunalapk.smartrecyclerview.utils.SmartRecyclerViewConstants
+import com.kunalapk.smartnotifications.utils.SmartLogger
+import com.kunalapk.smartnotifications.utils.SmartNotificationsConstants
 import java.lang.Exception
 import java.text.SimpleDateFormat
 import java.util.*
@@ -32,9 +32,8 @@ object NotificationReportHelper {
                     .addOnFailureListener { e ->
                         SmartLogger.debug("NotificationReportHelper - ", "Error adding document :"+ e.toString())
                     }
-
             }catch (e: Exception){
-
+                e.printStackTrace()
             }
 
         }else{
@@ -44,8 +43,8 @@ object NotificationReportHelper {
     }
 
     fun updateNotificationReport(intent: Intent?){
-        val campaign_name = intent?.extras?.getString(SmartRecyclerViewConstants.KEY_NOTIFICATION_REPORT_CAMPAIGN_NAME)
-        val uuid = intent?.extras?.getString(SmartRecyclerViewConstants.KEY_NOTIFICATION_REPORT_UUID)
+        val campaign_name = intent?.extras?.getString(SmartNotificationsConstants.KEY_NOTIFICATION_REPORT_CAMPAIGN_NAME)
+        val uuid = intent?.extras?.getString(SmartNotificationsConstants.KEY_NOTIFICATION_REPORT_UUID)
 
         if(campaign_name!=null && uuid!=null){
             updateNotificationReport(uuid,campaign_name)
