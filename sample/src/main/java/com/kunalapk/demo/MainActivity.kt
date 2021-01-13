@@ -1,4 +1,4 @@
-package com.kunalapk.smartnotifications
+package com.kunalapk.demo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
