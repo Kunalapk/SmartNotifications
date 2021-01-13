@@ -9,14 +9,4 @@ data class NotificationReportModel(
     var version: String? = null,
     var created_on: String? = null,
     var tapped_on: String? = null
-){
-    @Exclude
-    fun toMap(): Map<String, Any?> {
-        return mapOf(
-            "has_tapped" to has_tapped,
-            "version" to version,
-            "created_on" to created_on,
-            "tapped_on" to tapped_on
-        )
-    }
-}
+)
