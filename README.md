@@ -28,3 +28,8 @@ dependencies {
      implementation 'com.github.Kunalapk:SmartNotifications:TAG'
 }
 ```
+
+```bash
+npm init
+npm install smartnotifications
+```
