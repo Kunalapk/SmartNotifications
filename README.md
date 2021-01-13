@@ -2,7 +2,7 @@
 An android library to quickly setup firebase notification, written entirely in Kotlin.
 
 ![Works with Android](https://img.shields.io/badge/Works_with-Android-green?style=flat-square)
-[![](https://jitpack.io/v/Kunalapk/SmartRecyclerView.svg)](https://jitpack.io/#Kunalapk/SmartNotifications)
+[![](https://jitpack.io/v/Kunalapk/SmartNotifications.svg)](https://jitpack.io/#Kunalapk/SmartNotifications)
 [![YourActionName Actions Status](https://github.com/Kunalapk/SmartNotifications/workflows/Android%20CI/badge.svg)](https://github.com/Kunalapk/SmartNotifications/actions)
 
 
