@@ -198,7 +198,7 @@ open class MessagingService : FirebaseMessagingService() {
 
 
     private fun makeNotification(intent:Intent,code:Int,title:String,message:String,icon:Bitmap?,isProfileIcon:Boolean,appNotificationIcon:Int){
-        val pendingIntent:PendingIntent = PendingIntent.getActivity(this,code,intent,PendingIntent.FLAG_UPDATE_CURRENT)
+        val pendingIntent:PendingIntent = PendingIntent.getActivity(this,code,intent,PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
         mNotificationHelper = NotificationHelper(this)
 
         if(contentView!=null){
